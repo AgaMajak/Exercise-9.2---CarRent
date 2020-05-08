@@ -32,7 +32,7 @@ public abstract class Vehicle implements Moveable {
 
     @Override
     public void goForward() {
-         direction = "Prosto";
+        direction = "Prosto";
     }
 
     @Override
