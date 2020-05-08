@@ -21,22 +21,22 @@ public abstract class Vehicle implements Moveable {
     }
 
     @Override
-    public String turnLeft() {
-        return direction = "W lewo";
+    public void turnLeft() {
+        direction = "W lewo";
     }
 
     @Override
-    public String turnRight() {
-        return direction = "W prawo";
+    public void turnRight() {
+        direction = "W prawo";
     }
 
     @Override
-    public String goForward() {
-        return direction = "Prosto";
+    public void goForward() {
+         direction = "Prosto";
     }
 
     @Override
-    public String goBack() {
-        return "Cofanie";
+    public void goBack() {
+        direction = "Cofanie";
     }
 }

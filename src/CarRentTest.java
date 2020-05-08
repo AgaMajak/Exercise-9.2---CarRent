@@ -22,5 +22,7 @@ public class CarRentTest {
             System.out.println(rentableCar.toString());
         }
 
+        rentableCars[1].rent("Karolina", "Nowak", "DFG673456");
     }
+
 }

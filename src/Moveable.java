@@ -1,10 +1,10 @@
 public interface Moveable {
-    String turnLeft();
+    void turnLeft();
 
-    String turnRight();
+    void turnRight();
 
-    String goForward();
+    void goForward();
 
-    String goBack();
+    void goBack();
 
 }
